@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hsvmoment"
+version = "0.0.1"
+authors = [
+  { name="Yanfeng Wu", email="yanfengwu13@fudan.edu.cn" },
+]
+description = "Package for computing moments and covariances of Heston stochastic volatility model and its derived models."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["Heston", "stochastic volatility", "moment", "covariance",
+    "method of moments"]
+
+[project.urls]
+"Homepage" = "https://github.com/xmlongan/hsvmoment"
+"Bug Tracker" = "https://github.com/xmlongan/hsvmoment/issues"
